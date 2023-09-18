@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำนวณหาค่า BMI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="top">
+        <div class="texts">
+            มาหาค่า BMI กัน
+        </div>
+        <button id="btn1"><div class="starttext">Start</div></button>
+        
+    </div>
+    <div class="textnol">
+        การหาค่าดัชนีมวลกาย (Body Mass Index : BMI) คือเป็นมาตรการที่ใช้ประเมินภาวะอ้วนและผอมในผู้ใหญ่ ตั้งแต่อายุ 20 ปีขึ้นไป สามารถทำได้โดยการชั่งน้ำหนักตัวเป็นกิโลกรัม และวัดส่วนสูงเป็นเซนติเมตร แล้วนำมาหาดัชมีมวลกาย โดยใช้โปรแกรมวัดค่าความอ้วนข้างต้น
+        <br><img src="https://f.ptcdn.info/805/059/000/pf9kdu2p9xkTxwKzfQGb-o.jpg" alt="imgBMI" width="500px">
+    </div>
+
+<div sclass="around">
+    
+
+    <div id="mid">
+        <div class="one">
+            <div class="undo"> <button id="undos">X</button> </div>
+            <div class="cm">
+                ความสูงของคุณคือ : (เซนติเมตร)
+            </div>
+            <input type="number" value="" id="numbercm">
+            <div class="kg">
+                น้ำหนักของคุณคือ : (กิโลกรัม)
+            </div>
+            <input type="number" value="" id="numberkg">
+            <button id="finish">คลิ๊กเพื่อทำการประมวณผล</button>
+        </div>
+    </div>
+
+    <div class="last">
+
+        <div class="headone">
+            ผลการประเมิณ 
+        </div>
+        <div class="last2">
+
+            <div class="resultone">ค่า ดัชนีมวลกาย ของคุณคือ :
+                <div id="result">XXX<!-- ค่าBMI --></div>
+            </div>
+
+            <div class="resulttwo">ผล :
+                <div id="result2">XXX<!-- ผลของBMI --></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="creditnut">
+
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="style.js"></script>
+    <script src="jss.js"></script>
+</body>
+</html>
